@@ -16,7 +16,7 @@ Include the latest version MooTools Framework, then .js into the page:
 Example
 -------
 
-window.addEvent('domready', function() {
+   window.addEvent('domready', function() {
 
           var clientId = 'your-clientId';
 
@@ -36,7 +36,7 @@ window.addEvent('domready', function() {
                                 })
 
 
-});
+   });
 
 ## References
 

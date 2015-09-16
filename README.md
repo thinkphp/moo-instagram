@@ -13,8 +13,9 @@ Include the latest version MooTools Framework, then .js into the page:
    <script type="text/javascript" src="MooTools-More-1.5.2.js"></script>
 
 
-#Example
+##Example
 
+   <script>
 
    window.addEvent('domready', function() {
 
@@ -37,7 +38,6 @@ Include the latest version MooTools Framework, then .js into the page:
 
 
     });
-
-## References
+    </script> 
 
   

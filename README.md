@@ -40,4 +40,20 @@ Include the latest version MooTools Framework, then .js into the page:
     });
 
 
-  
+    #HTML
+
+    <div class="pure-g">                 
+                <p>tagged #vamaveche</p>
+                <div class="pure-u-1-4" id="photos">
+                Loading...
+                </div>
+                <p>location: 514276</p>
+                <div class="pure-u-1-4" id="photos2">
+                Loading...
+                </div>
+                <p>lat = 48.858844 lng = 2.294351)</p>
+                <div class="pure-u-1-4" id="photos3">
+                Loading...
+                </div>
+    </div>
+   

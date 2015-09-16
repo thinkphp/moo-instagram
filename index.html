@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Instagram.js Plugin MooTools by Adrian Statescu</title>
+    <style>
+* { margin: 10px; padding: 0; outline: none; }
+html { height: 105%; }
+body { font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; }
+h1 { font-size: 26px/1.4; font-family: Georgia,Times,serif;color: #333;}
+img{ width: 170px; display: inline-block; position: relative; margin-right: 20px; margin-bottom: 12px;  border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; }
+p {font: 26px/1.4; font-family: Georgia,Times,serif ; }
+.pure-u-1-4 {width: 300px}
+     </style>
+   <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.5.2/mootools.min.js"></script>
+   <script type="text/javascript" src="moo-instagram-min.js"></script>
+   <script type="text/javascript" src="MooTools-More-1.5.2.js"></script>
+</head>
+<body>
+
+   <script type="text/javascript">
+
+window.addEvent('domready', function() {
+
+          var clientId = '95e09e6147344028bfb8972ce0f3a0b0';
+
+                                new Instagram('photos',{clientId : clientId, 
+                                                        count    : 10,
+                                                        hash     : 'vamaveche'
+                                })
+
+                                new Instagram('photos2',{clientId : clientId, 
+                                                        count    : 10,
+                                                        location: {id: 514276}
+                                })
+
+                                new Instagram('photos3',{clientId : clientId, 
+                                                        count    : 10,
+                                                        search: { lat: 48.858844, lng: 2.294351 }
+                                })
+
+
+});
+
+   </script>
+
+
+<div id="layout">
+
+    <div id="main">
+        <div class="header">
+            <h1><img src="insta.png" />Instagram.js Plugin MooTools</h1>
+        </div>
+
+        <div class="content">
+            <h2 class="content-subhead"></h2>
+
+            <div class="pure-g">                 
+                <p>tagged #vamaveche</p>
+                <div class="pure-u-1-4" id="photos">
+                Loading...
+                </div>
+                <p>location: 514276</p>
+                <div class="pure-u-1-4" id="photos2">
+                Loading...
+                </div>
+                <p>lat = 48.858844 lng = 2.294351)</p>
+                <div class="pure-u-1-4" id="photos3">
+                Loading...
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<p>Created by <a href="http://thinkphp.github.io">Adrian Statescu</a> | <a href="#">Fork on GitHub</a></p>
+</body>
+</html>

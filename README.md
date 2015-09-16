@@ -8,15 +8,15 @@ How to use
 
 Include the latest version MooTools Framework, then .js into the page:
 
-   #HTML
-   <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.5.2/mootools.min.js"></script>
-   <script type="text/javascript" src="moo-instagram-min.js"></script>
-   <script type="text/javascript" src="MooTools-More-1.5.2.js"></script>
-
-
+     
 ##Example
 
+
     #JS
+    <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.5.2/mootools.min.js"></script>
+    <script type="text/javascript" src="moo-instagram-min.js"></script>
+    <script type="text/javascript" src="MooTools-More-1.5.2.js"></script>
+
     window.addEvent('domready', function() {
 
           var clientId = 'your-clientId';

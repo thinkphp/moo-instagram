@@ -13,8 +13,8 @@ Include the latest version MooTools Framework, then .js into the page:
    <script type="text/javascript" src="MooTools-More-1.5.2.js"></script>
 
 
-Example
--------
+#Example
+
 
    window.addEvent('domready', function() {
 
@@ -36,7 +36,7 @@ Example
                                 })
 
 
-   });
+    });
 
 ## References
 

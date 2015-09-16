@@ -1,3 +1,20 @@
+/*
+---
+description: Select and Show a list of Instagram Photos.
+
+authors:
+- Adrian Statescu (http://thinkphp.ro)
+
+license:
+- MIT-style license
+
+requires:
+ core/1.5.2: '*'
+ more/1.5.2: Request.JSONP
+
+provides: [Instagram]
+...
+*/
 var Instagram = new Class({
 
     /*Implements*/

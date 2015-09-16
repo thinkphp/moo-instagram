@@ -1,3 +1,21 @@
+/*
+---
+description: Select and Show a list of Instagram Photos.
+
+authors:
+- Adrian Statescu (http://thinkphp.ro)
+
+license:
+- MIT-style license
+
+requires:
+ core/1.5.2: '*'
+ more/1.5.2: Request.JSONP
+
+provides: [Instagram]
+...
+*/
+
 var Instagram=new Class({Implements:[Events,Options],defaults:{accessToken:null,clientId:null,count:null,url:null,hash:null,userId:null,location:null,search:null},where:'photos',initialize:function(where,options){this.where=where||'photos'
 this.options=Object.merge({},this.defaults,options)
 this._makeRequest()
